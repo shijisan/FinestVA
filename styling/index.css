@@ -8,7 +8,7 @@
 }
 
 .background {
-    background-image: url("../images/hero.jpg");
+    background-image: url("../images/hero.webp");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: contain;
@@ -51,7 +51,7 @@
     color: black;
 }
 .sect2R{
-    background-image: url('../images/section2.jpg');
+    background-image: url('../images/section2.webp');
     background-size: cover;
     background-position: center;
 }
