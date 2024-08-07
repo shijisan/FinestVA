@@ -1,0 +1,80 @@
+@import url('./global.css');
+
+main{
+    height: 80vh;
+    background-color: var(--primary);
+}
+main .left{
+    color: white;
+    font-family: 'poppins';
+
+}
+
+main .left h1, main .left p{
+    text-shadow: 1px 2px #2a7567;
+}
+
+main .left .btn{
+    width: max-content;
+}
+main .right img{
+    width: 75%;
+    border-bottom: white 5px solid;
+}
+
+.sect1{
+    height: 25vh;
+    background-color: var(--background);
+    color: var(--primary);
+    font-family: 'poppins';
+}
+
+.sect2{
+    background-color: white;
+    font-family: 'poppins';
+}
+
+.sect2 .col-lg-4{
+    border: 2px white solid;
+    background-color: var(--primary);
+    color: white;
+}
+.sect2 .fas{
+    padding: 1em;
+}
+
+.sect3{
+    background-color: var(--background);
+    color: black;
+    min-height: 75vh;
+    font-family: 'poppins';
+
+}
+
+
+.sect3 i.fas{
+    font-size: large;
+}
+
+.sect3 .card-header h5{
+    width: max-content;
+}
+
+.sect3 .col-lg-6 div{
+    min-width: 30vw;
+    height: 40vh;
+    background-color: var(--primary);
+    color: white;
+}
+
+.sect3 li h5{
+    width: max-content;
+}
+
+@media only screen and (max-width: 990px) {
+
+    .sect3 .col-lg-6 div{
+        width: 100%;
+    }
+
+}

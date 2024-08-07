@@ -1,0 +1,81 @@
+@import url('./global.css');
+
+.hero{
+    font-family: 'poppins';
+}
+
+.heroL{
+    background-color: var(--primary);
+    min-height: 80vh!important;
+}
+
+.heroL h1{
+    color: white;
+}
+.heroL p{
+    color: white;
+}
+.heroR{
+    background-image: url('../images/about1.webp');
+    background-size: cover;
+    background-position: center;
+}
+.sect1{
+    background-color: var(--background);
+    min-height: 25vh;
+    font-family: 'poppins';
+}
+
+
+.sect1 .col-lg-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid var(--primary);
+    transition: transform 0.2s ease;
+}
+.icon-container:hover {
+    transform: scale(1.05);
+    background-color: rgb(235, 241, 243);
+}
+.icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: var(--primary);
+}
+.description {
+    font-weight: bold;
+}
+
+.sect2{
+    min-height: 100vh;
+    font-family: 'poppins';
+    background-color: var(--background);
+    min-height: 25vh;
+    font-family: 'poppins';
+}
+
+.sect2L2{
+    background-color: var(--primary);
+    min-height: 80vh!important;
+}
+
+.sect2L2 h2, .sect2L2 p, .sect2L2 li{
+    color: white;
+}
+.sect2R2{
+    background-image: url('../images/about2.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+footer{
+    background-image: url('../images/footer2.webp');
+    background-size: cover;
+}

@@ -1,0 +1,24 @@
+@import url('./index.css');
+
+main{
+    min-height: 100vh;
+}
+
+main .card{
+    background-color: var(--background);
+    color: var(--primary);
+    font-family: 'poppins';
+}
+
+.colored{
+    background: var(--primary);
+}
+
+@media only screen and (max-width: 990px) {
+
+    main .card{
+        margin: 1em;
+    }
+
+
+}

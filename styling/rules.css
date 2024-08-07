@@ -1,0 +1,20 @@
+@import url('./index.css');
+
+main{
+    height: 80vh;
+}
+
+main .col-lg-7{
+    color: white;
+    background-color: var(--primary);
+    font-family: 'poppins';
+}
+
+main .col-lg-5{
+    background-image: url('../images/rules.webp');
+    background-size: contain;
+}
+
+footer{
+    background: var(--background);
+}
