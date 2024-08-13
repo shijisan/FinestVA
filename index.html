@@ -68,6 +68,9 @@
                             <a class="nav-link" href="./page/rules.html">Rules</a>
                         </li>
                         
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/va-profiles.html">VAs' Profile</a>
+                        </li>
                         
                         <li class="nav-item ms-3">
                             <a class="nav-link btn btn-main" href="#">Let's Connect</a>
@@ -112,26 +115,26 @@
     <section class="sect4 d-flex justify-content-center h-100 flex-column">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3" id="redirectTrigger">
                     <div class="p-4 text-center">
                         <h3>Social Media Management</h3>
                         <p>Our team handles your social media presence, creating and scheduling engaging content to build and maintain your brand's online community.</p>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3" id="redirectTrigger">
                     <div class="p-4 text-center">
                         <h3>Email Marketing</h3>
                         <p>We craft compelling email campaigns that foster customer relationships and drive conversions.</p>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3" id="redirectTrigger">
                     <div class="p-4 text-center">
                         <h3>Lead Generation</h3>
                         <br>
                         <p>We develop targeted campaigns to attract and convert potential customers, driving business growth.</p>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3" id="redirectTrigger">
                     <div class="p-4 text-center">
                         <h3>Administrative Task</h3>
                         <p>We offer reliable support for various operational tasks, ensuring your business runs smoothly and efficiently.</p>
@@ -144,10 +147,72 @@
         </div>
     </section>
 
-    <section class="sect5 d-flex justify-content-center align-items-center flex-column">
-        <h1>Customer Testimonial</h1>
-        <video src="#"></video>
+    <section class="sect5 d-flex justify-content-center flex-column">
+        <h1 class="text-center pb-3">Customer Testimonial</h1>
+        
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <!-- First Testimonial -->
+                <div class="carousel-item active">
+                    <div class="container d-flex justify-content-center">
+                        <div class="card col-lg-4">
+                            <div class="card-body p-lg-5 p-2">
+                                <h5>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</h5>
+                            </div>
+                            <div class="colored py-2 d-flex justify-content-center">
+                                <img class="rounded-circle" src="https://i.pravatar.cc/100?img=1" alt="Client photo.">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Second Testimonial -->
+                <div class="carousel-item">
+                    <div class="container d-flex justify-content-center">
+                        <div class="card col-lg-4">
+                            <div class="card-body p-lg-5 p-2">
+                                <h5>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</h5>
+                            </div>
+                            <div class="colored py-2 d-flex justify-content-center">
+                                <img class="rounded-circle" src="https://i.pravatar.cc/100?img=7" alt="Client photo.">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Third Testimonial -->
+                <div class="carousel-item">
+                    <div class="container d-flex justify-content-center">
+                        <div class="card col-lg-4">
+                            <div class="card-body p-lg-5 p-2">
+                                <h5>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</h5>
+                            </div>
+                            <div class="colored py-2 d-flex justify-content-center">
+                                <img class="rounded-circle" src="https://i.pravatar.cc/100?img=5" alt="Client photo.">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </section>
+    
 
     <footer class="container-fluid text-center d-flex align-items-center m-0 p-0">
         <ul class="list-unstyled row w-100 py-3 m-0">
@@ -171,6 +236,13 @@
 
         </ul>
     </footer>
+
+    <script>
+        redirectTrigger = document.getElementById("redirectTrigger");
+        trigger = redirectTrigger.addEventListener("click", function(){
+            window.location.href = "/pages/offers.html/#sect3";
+        })
+    </script>
 </body>
 
 </html>

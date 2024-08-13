@@ -69,7 +69,9 @@
     background-color: var(--background);
 }
 
-
+.colored{
+    background-color: var(--gradient);
+}
 
 .sect4 .col-lg-3 .p-4{
     display: flex;
@@ -82,12 +84,22 @@
 
 .sect5{
     min-height: 100vh;
-    color: var(--primary);
+    color: white;
+    text-align: justify;
+    background-color: var(--primary);
 }
 
-.sect5 video{
-    width: 50vw;
-    object-fit: cover;
+.sect5 .card{
+    border: none;
+}
+
+.sect5 .carousel-indicators{
+    margin-bottom: -2.5em;
+}
+
+.sect4 .col-lg-3 .p-4:hover{
+    background-color: #395481;
+    cursor: pointer;
 }
 
 

@@ -4,7 +4,7 @@
     --primary: #3fae99;
     --gradient: #395481;
 }
-
+  
 nav {
     min-height: 20vh;
     background-color: var(--background);
