@@ -1,7 +1,7 @@
-@import url('./index.css');
+@import url('./global.css');
 
 main{
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 main .card{
@@ -12,10 +12,26 @@ main .card{
 
 .colored{
     background: var(--primary);
+    color: white;
 }
 
 main h5{
     text-align: justify;
+}
+
+.sect1{
+    background-color: var(--background);
+}
+
+.sect1 .container{
+    min-height: 100vh;
+
+}
+
+.sect1 .image{
+    background-image: url('../images/section2.webp');
+    background-size: cover;
+    background-position: center;
 }
 
 @media only screen and (max-width: 990px) {

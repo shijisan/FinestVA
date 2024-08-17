@@ -70,7 +70,8 @@
 }
 
 .colored{
-    background-color: var(--gradient);
+    background-color: var(--primary);
+    color: white;
 }
 
 .sect4 .col-lg-3 .p-4{
@@ -84,21 +85,22 @@
 
 .sect5{
     min-height: 100vh;
-    color: white;
     text-align: justify;
-    background-color: var(--primary);
 }
 
-.sect5 .card{
-    border: none;
-}
 
 .sect5 .carousel-indicators{
     margin-bottom: -2.5em;
+    filter: invert(59%) sepia(10%) saturate(2073%) hue-rotate(119deg) brightness(99%) contrast(87%);
+    
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    filter: invert(59%) sepia(10%) saturate(2073%) hue-rotate(119deg) brightness(99%) contrast(87%);
 }
 
 .sect4 .col-lg-3 .p-4:hover{
-    background-color: #395481;
+    background-color: var(--primary);
     cursor: pointer;
 }
 
