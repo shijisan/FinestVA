@@ -28,6 +28,6 @@ main{
 
 @media only screen and (max-width: 769px) {
     main .card{
-        flex-direction: column!important;
+        flex-direction: column !important;
     }
 }

@@ -20,12 +20,13 @@ main h5{
 }
 
 .sect1{
-    background-color: var(--background);
+
 }
 
 .sect1 .container{
+    background-color: var(--background);
     min-height: 100vh;
-
+    padding: 0;
 }
 
 .sect1 .image{
